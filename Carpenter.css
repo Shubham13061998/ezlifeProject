@@ -1,0 +1,105 @@
+#title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 4rem;
+ }
+
+ #navbarNav{
+     margin-left: auto;
+     padding-left: 32rem;
+ }
+
+.big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.big-heading-2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 3%;
+}
+
+
+/* Container */
+.container-fluid{
+    font-size: 1.5rem;
+    padding: 0%  0%  ;
+}
+
+
+/* NAVBAR */
+.navbar{
+    padding: 10 0 7rem;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+/* BODY */
+#row{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: #dbdaba;
+}
+
+/* STEP */
+#step{
+   padding-top: 6rem;
+}
+
+/* INFORMATION */
+.information{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+/* GREET */
+.greet{
+    font-size: 4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+}
+
+.anchor{
+    text-align: center;
+    background-color: white;
+}
+
+
+.abotutUs{
+    text-align: left;
+    color: black;
+    padding-top: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#auContent{
+    font-weight: normal;
+    padding-top: 1rem;
+}
+
+.quickLinks{
+    padding-top: 2.5rem;
+    text-align: left;
+}
+
+.qlContent{
+    padding-top: 1.1rem;
+    font-weight: normal;    
+    font-size: 1.2rem;
+
+}

@@ -1,0 +1,70 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 4rem;
+ }
+
+ #navbarNav{
+     margin-left: auto;
+     padding-left: 45rem;
+ }
+
+.big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.big-heading-2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 3%;
+}
+
+/* Container */
+.container-fluid{
+    font-size: 1.5rem;
+    padding: 0%  0%  ;
+}
+
+
+/* NAVBAR */
+.navbar{
+    padding: 10 0 4.5rem;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+
+/* INFORMATIONS */
+#Register-info{
+    padding-top: 5rem;
+    padding-bottom:3rem;
+    padding-right: 30rem;
+    padding-left: 30rem;
+}
+
+#register-btn{
+    text-align: center;
+}
+
+.aha{
+    padding-top: 1.5rem;
+}

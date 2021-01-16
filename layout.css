@@ -1,0 +1,114 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    padding-left: 4rem;
+ }
+
+ #navbarNav{
+     margin-left: auto;
+     padding-left: 32rem;
+ }
+
+.big-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.big-heading-2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: left;
+    padding-top: 3%;
+}
+
+
+/* Container */
+.container-fluid{
+    font-size: 1.3rem;
+    padding: 0%  0%  ;
+}
+
+
+/* NAVBAR */
+.navbar{
+    padding: 10 0 7rem;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav{
+    align-items: center;
+}
+
+#greeting{
+    padding-top: 8%;
+    padding-left: 6%;
+    padding-bottom: 9%;
+}
+
+#greetingImage{
+    padding-top: 3%;
+}
+
+/* SERVICES */
+#service-styles{
+    padding: 2% 0% 2% 8%;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: #e8ffea;
+}
+
+/* BUTTONS */
+/* #find-btn{
+
+} */
+.card-body{
+    background-color: #e8ffea;
+}
+
+.card-img-top{
+    background-color: #e8ffea;
+}
+
+.anchor{
+    text-align: center;
+    background-color: white;
+}
+
+
+.abotutUs{
+    text-align: left;
+    color: black;
+    padding-top: 2.5rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#auContent{
+    font-weight: normal;
+    padding-top: 1rem;
+}
+
+.quickLinks{
+    padding-top: 2.5rem;
+    text-align: left;
+}
+
+.qlContent{
+    padding-top: 1.1rem;
+    font-weight: normal;    
+    font-size: 1.2rem;
+
+}

@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>
+            Register | ezLife
+        </title>
+
+              <!-- Google Fonts -->
+              <link rel="preconnect" href="https://fonts.gstatic.com">
+              <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+              <link rel="preconnect" href="https://fonts.gstatic.com">
+              <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+      
+      
+              <!-- CSS -->
+              <link rel="stylesheet" href="Register.css">
+      
+              <!-- BOOTSTRAP -->
+              <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+      
+    </head>
+
+    <body>
+
+        
+        
+         <!-- NAVBAR -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ml-auto">
+                
+            <div class="container-fluid">
+              <a class="navbar-brand" id="title" href="Layout.html">ezLife.com</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+                  <ul class="navbar-nav ">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="Layout.html">Home </a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+        
+        <!-- INFORMATIONS -->
+        <div class="information" id="Register-info">
+            <form action="Register1.php" method="post">
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="floatingInput" placeholder="Name" name="Name">
+                <label for="floatingInput">Full Name</label>
+            </div>
+            
+            <div class="form-floating mb-3">
+                <input type="address" class="form-control" id="floatingInput" placeholder="Address" name="Address">
+                <label for="floatingInput">Address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="ZIPCode" class="form-control" id="floatingInput" placeholder="ZIPCode" name="ZIPCode">
+                <label for="floatingInput">ZIP Code</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="email" name="email">
+                <label for="floatingInput">Email address</label>
+            </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+        </div>
+        <input type="submit" class="btncreateaccount" name= "submit" value="create account"/>
+    </form>
+        
+        <!-- AHA -->
+        <p class="information aha">Already have an account? <a href="Log-in.html">Login</a></p>
+    
+         
+    </body>
+</html>
+
+
+ 
